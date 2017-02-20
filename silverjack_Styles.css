@@ -1,0 +1,56 @@
+#player
+{
+    height:92px;
+    width:69px;
+    border: 2px solid black;
+}
+#gameTable
+{
+    margin-left: 420px;
+}
+#card
+{
+    height:92px;
+    width:69px;
+}
+#score
+{
+    margin-left: 50px;
+    font-size: 20px;
+    height:auto;
+    width:auto;
+}
+#replay
+{
+    border: 2px solid black;
+    font-size: 20px;
+    margin-left: 420px;
+    background-color:green;
+    
+}
+html
+{
+    height:auto;
+    width:auto;
+}
+body
+{
+    height:auto;
+    width:auto;
+}
+div
+{
+    height: auto;
+    width: auto;
+    float:left;
+}
+li>a
+{
+    text-decoration:none;
+}
+a:hover
+{
+    color:black;
+    background-color:white;
+    padding:0px; 
+}
