@@ -7,6 +7,9 @@
 #gameTable
 {
     margin-left: 420px;
+    height:auto;
+    width:auto;
+    
 }
 #card
 {
@@ -24,19 +27,43 @@
 {
     border: 2px solid black;
     font-size: 20px;
-    margin-left: 420px;
-    background-color:green;
-    
+    margin-left:15px;
+    background-color: none;
+}
+#winner
+{
+    margin-left: 610px;
+    font-size: 20px;
+}
+#background
+{
+    background: linear-gradient(white, gray);
+}
+#space
+{
+    width:auto;
+    height:400px;
 }
 html
 {
     height:auto;
     width:auto;
+    
 }
 body
 {
     height:auto;
     width:auto;
+}
+h1
+{
+    font-size:40px;
+    text-align:center;
+}
+img
+{
+    max-height:100%;
+    max-width:100%;
 }
 div
 {
@@ -44,13 +71,14 @@ div
     width: auto;
     float:left;
 }
-li>a
+li, a
 {
+    color:black;
     text-decoration:none;
 }
 a:hover
 {
-    color:black;
+    color:red;
     background-color:white;
     padding:0px; 
 }
